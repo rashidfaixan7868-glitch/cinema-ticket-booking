@@ -2,7 +2,7 @@ name : My first CI
 on : push
 jobs :
   hello :
-    runs-on : ubuntu-lastest
+    runs-on : ubuntu-latest
     steps:
       - run : echo "hello"
       
