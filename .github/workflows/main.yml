@@ -7,4 +7,5 @@ jobs:
       - run: echo "learning yml step by step"
       - name: main
         uses: actions/checkout@v6
-    
+      - name: list files
+        run: ls
