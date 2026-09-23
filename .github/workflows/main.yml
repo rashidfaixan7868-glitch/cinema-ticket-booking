@@ -1,9 +1,9 @@
-name : My first CI
-on : push
-jobs :
-  hello :
-    runs-on : ubuntu-latest
+name: My First CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - run : echo "hello"
-      
+      - run: echo "learning yml step by step"
+  
     
