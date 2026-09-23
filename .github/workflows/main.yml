@@ -1,9 +1,9 @@
 name : My first CI
 on : push
-job :
+jobs :
   hello :
     runs-on : ubuntu-lastest
     steps:
-      -run : echo "hello"
+      - run : echo "hello"
       
     
