@@ -9,3 +9,5 @@ jobs:
         uses: actions/checkout@v6
       - name: list files
         run: ls
+      - name: display content of booking.cpp
+        run: cat booking.cpp
